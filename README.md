@@ -1,6 +1,6 @@
 # InstanceView
  
- Módulo para FusionCMS el cual permite revisar integrantes, instancia, y npc derrotados dentro de una raid
+ Módulo para FusionCMS el cual permite revisar integrantes, instancia y npc derrotados dentro de una raid
  
 ## Módulo de FusionCMS
 
