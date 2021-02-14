@@ -1,0 +1,50 @@
+{
+	"name": "Visor de instancias WoWChile.cl",
+	"description": "Visualización de instancias por ID",
+	"author": {
+		"name": "Xhaher",
+		"website": "https://github.com/xhaher"
+	},
+
+	"permissions": {
+		"use_cta": {"default" : true, "description": "Permitir" },
+		"canViewAdmin": {"default" : true, "description": "Visualizar" }
+	},
+
+	"roles": {
+		"use": {
+			"description": "Allow view.",
+
+			"permissions": {
+				"use_cta": true
+			}
+		},
+
+		"manage": {
+			"description": "View the instances logs.",
+			"dangerLevel": 2,
+
+			"permissions": {
+				"canViewAdmin": true,
+				"canDelete": true
+			}
+		}
+	},
+
+	"admin": [
+		{
+			"text": "Users",
+			"icon": "icon database",
+			"links": [
+				{
+					"text": "Instancias",
+					"icon": "icon database",
+					"controller": "admin",
+					"requirePermission": "canViewAdmin"
+				}
+			]
+		}
+	],
+	
+	"enabled": true
+}
