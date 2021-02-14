@@ -2,9 +2,9 @@
  
  Módulo para FusionCMS el cual permite revisar integrantes, instancia, y npc derrotados dentro de una raid
  
-## Módulo de Fusion
+## Módulo de FusionCMS
 
-* Configurable string de errores básicos
+* Configurable string de errores básicos.
 
 > config\instance_config.php
 
