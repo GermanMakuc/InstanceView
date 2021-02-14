@@ -17,10 +17,10 @@ $config['cta_language'] = array(
 );
 ```
 
-![Screenshot](Menu.png)
-![Screenshot](Screen1.png)
-![Screenshot](Screen2.png)
-![Screenshot](Screen3.png)
+![Screenshot](Screenshot/Menu.png)
+![Screenshot](Screenshot/Screen1.png)
+![Screenshot](Screenshot/Screen2.png)
+![Screenshot](Screenshot/Screen3.png)
 
 ## Requisitos
 
