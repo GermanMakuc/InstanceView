@@ -4,7 +4,23 @@
  
 ## Módulo de Fusion
 
-* Configurable limitación por facción, posición, characters permitidos por ip, string de errores
+* Configurable string de errores básicos
+
+> config\instance_config.php
+
+```
+$config['cta_language'] = array(
+
+    'ERROR_REALM'      => 'El reino seleccionado es inválido o no existe.',
+    'ERROR_WEB_FAIL'  => 'Error interno.',
+    'ERROR_ID'  => 'El ID de la raid no existe.',
+);
+```
+
+![Screenshot](Menu.png)
+![Screenshot](Screen1.png)
+![Screenshot](Screen2.png)
+![Screenshot](Screen3.png)
 
 ## Requisitos
 
