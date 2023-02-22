@@ -36,5 +36,5 @@ $config['cta_language'] = array(
 
 ## Creditos 
 
-* [Xhaher](https://github.com/xhaher) (Autor del módulo)
+* [GermanMakuc](https://github.com/GermanMakuc) (Autor del módulo)
 * [FusionCMS](https://github.com/poszer/FusionCMS)
